@@ -1,5 +1,5 @@
 // Server
-const PORT = 1883
+const PORT = process.env.PORT || 1883
 const TOPIC = 'main'
 
 var aedes = require('aedes')()
